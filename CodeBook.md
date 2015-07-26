@@ -24,7 +24,7 @@ tGravityAcc-XYZ,tBodyAccJerk-XYZ)
 
 - X_train - The measurement matrix for the 'Train' group.
 - Y_train - Activity mapping for the data in X_train. 
-subject_train - Mapping of the subject that was performing the activity for the measurement in X_train.
+- subject_train - Mapping of the subject that was performing the activity for the measurement in X_train.
 
 ###Algorithms
 
