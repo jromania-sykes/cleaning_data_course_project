@@ -2,12 +2,13 @@
 
 This is a course project for the Getting and Cleaning Data Coursera course by by Jeff Leek, PhD, Roger D. Peng, PhD, Brian Caffo, PhD at John Hopkins University.
 
-Human Activity Recognition Using Smartphones Dataset
-Version 1.0.  This will be subsequently refereed to as the SMARTPHONE WEARABLE 1.0 Dataset.
+This project transforms the original performs prescribed transformations on the Human Activity Recognition Using Smartphones Dataset
+Version 1.0.  This dataset can be found here https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+This will be subsequently refereed to as the SMARTPHONE WEARABLE 1.0 Dataset.
 
 this original dataset can be found here.
 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 
 This project uses the following files
