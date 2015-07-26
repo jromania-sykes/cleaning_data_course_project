@@ -16,8 +16,8 @@ This will be subsequently referred to as the SMARTPHONE WEARABLE 1.0 Dataset.
 https://github.com/jromania-sykes/cleaning_data_course_project/blob/master/README.md
 
 -Original Data set https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-Files
-=========================================
+
+###Files
 
 - 'README.md' - this file.
 
