@@ -2,7 +2,6 @@ get_tidy_wearables_data <- function() {
     ##load global tables
     library(dplyr)
     # friendly names for the six activities measured
-    # setwd('./Downloads/UCI HAR Dataset/')
     activity_labels=read.table('./UCI HAR Dataset/activity_labels.txt')
 
     # names for the 561 measurements included in each sample (i.e.  Column names)
