@@ -44,8 +44,8 @@ get_tidy_wearables_data <- function() {
     #combine into one dataframe
     combined_test_train<-rbind(X_test,X_train)
 
+    
     #extract just the mean and std columns 
-
     mean_std_combined<-cbind(combined_test_train[,grep('std',colnames(combined_test_train))],combined_test_train[,grep('mean',colnames(combined_test_train))])
 
     mean_std_combined$activity=combined_test_train$activity_label
@@ -56,6 +56,7 @@ get_tidy_wearables_data <- function() {
     cnames = gsub('\\(\\)','',cnames)
 
     #Add subject column. subject_train
+    
     colnames(mean_std_combined) <- cnames
     mean_std_combined
     
