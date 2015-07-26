@@ -31,6 +31,6 @@ will create the the the 3 csv files described below.
 - 'CodeBook.md' - describes the algorithmin used to transform the SMARTPHONE WEARABLE 1.0 Dataset into 
 
 -  UCI HAR Dataset - This directory is a place holder for the original dataset.  The code 
-	references files in this directory to perform the cleaning of the data.  To reproduce the transformation in run_analysis.R first downloand and exgtract the files into a directory with this name.
+	references files in this directory to perform the cleaning of the data.  To reproduce the transformation in run_analysis.R first download and extract the files into a directory with this name.
 	
 
