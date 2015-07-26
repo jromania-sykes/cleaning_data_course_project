@@ -9,6 +9,7 @@ Files
 Refer to the documentation above for description of the source files.
 
 ###Source Data
+
 The following tables are loaded from the dataset listed above.  Please review the information in the above dataset for more detail on the source data and project.
 
 - activity_labels - Name mapping for activities performed by the subjects.  (1 WALKING
@@ -25,11 +26,20 @@ subject_test - Mapping of the subject that was performing the activity for the m
 - Y_train - Activity mapping for the data in X_train. 
 subject_train - Mapping of the subject that was performing the activity for the measurement in X_train.
 
-###Alogorithm
+###Algorithms
 
-The following steps are performed by get_tidy_wearables data function in the 
+The following steps are performed by **get_tidy_wearables** data function in the 
 run_analysis.R.
 
+####get_tidy_wearables
+Transform the source tables into a tidy data set as defined by
+
+Merge the training and the test sets to create one data set.
+Extract only the measurements on the mean and standard deviation for each measurement. 
+Use descriptive activity names to name the activities in the data set
+Labels the data set with descriptive variable names. 
+
+####method
 - load global tables : activity_labels, features,
 - load 'train' and 'test' data sets.  X_test, Y_test, X_train, Y_train
 - set column names for X_train and X_test to for the 561 measurements included in each sample (i.e.  Column names)
@@ -38,11 +48,12 @@ run_analysis.R.
 - As per the instructions extract just the mean and std columns (leaving the activity and subject columns) from the combined_test_train into the mean_std_combined table.
 - strip funky characters out of the column names (IE, '(','(','-',..) these cause problems with the dplyr specification used for the summary tables created 
 
-get_tidy_mean_by_activity_wd <- function(mean_std_combined) {
+creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+####get_tidy_mean_by_activity_wd <- function(mean_std_combined) {
     mean_by_activity=mean_std_combined %>% group_by(activity) %>% summarise_each(funs(mean(.,na.rm=TRUE)), -subject)
     }
 
-get_mean_by_subject_wd <- function(mean_std_combined) {
+####get_mean_by_subject_wd <- function(mean_std_combined) {
     mean_by_subject =mean_std_combined %>% group_by(subject)  %>% summarise_each(funs(mean(.,na.rm=TRUE)), -activity)
 }
 
