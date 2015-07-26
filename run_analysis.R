@@ -61,8 +61,11 @@ get_tidy_wearables_data <- function() {
     
 }
 
+get_tidy_mean <- function(mean_std_combined) {
+    mean_by_activity=mean_std_combined %>% group_by(activity,subject) %>% summarise_each(funs(mean(.,na.rm=TRUE)))
+    }
 get_tidy_mean_by_activity_wd <- function(mean_std_combined) {
-    mean_by_activity=mean_std_combined %>% group_by(activity) %>% summarise_each(funs(mean(.,na.rm=TRUE)), -subject)
+    mean_by_activity=mean_std_combined %>% group_by(activity,subject) %>% summarise_each(funs(mean(.,na.rm=TRUE)))
     }
 
 get_mean_by_subject_wd <- function(mean_std_combined) {
