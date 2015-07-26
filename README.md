@@ -7,23 +7,20 @@ Version 1.0.  This dataset can be found here https://d396qusza40orc.cloudfront.n
 
 This will be subsequently refereed to as the SMARTPHONE WEARABLE 1.0 Dataset.
 
-this original dataset can be found here.
 
-
-
-This project uses the following files
+Files
 =========================================
 
 - 'README.md' - this file.
 
-- 'run_analysis.R' : Code file that will clean the files in theSMARTPHONE WEARABLE 1.0 Dataset and 
+- 'run_analysis.R' : The R language code file that will clean the files in the SMARTPHONE WEARABLE 1.0 Dataset and 
 will create the the the 3 csv files described below.
 
 - 'tidy_data_wearable.csv' is the cleaned dataset.  
-	 ##The subject and activity columns are added to the Train and Test datasets.
-	 ##The datasets are merged into one large dataset.
-	 ##The actual row and column names are set to their descriptive names for the dataframe.
-	 ##The standard devation and mean columns are extracted
+	 +The subject and activity columns are added to the Train and Test datasets.
+	 +The datasets are merged into one large dataset.
+	 +The actual row and column names are set to their descriptive names for the dataframe.
+	 +The standard devation and mean columns are extracted
 	 
 	 
 - 'tidy_data_wearable_mean_by_subject.csv'
