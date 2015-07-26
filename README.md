@@ -34,6 +34,8 @@ will create the the the 3 txt data files described below.
 
 - 'tidy_data_wearable_mean_by_activity.txt' - Is the mean of all the columns in tidy_data_wearable.txt aggregated by 6 activities.
 
+- 'mean_table.txt' - Combination of above tables for submission for answer 5.
+
 - 'CodeBook.md' - Gives the instruction and describes the algorithm used to transform the SMARTPHONE WEARABLE 1.0 Dataset into 
 
 -  UCI HAR Dataset - This directory is a place holder for the original dataset.  The code 
