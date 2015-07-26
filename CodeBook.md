@@ -46,13 +46,13 @@ Transform the source tables into a tidy data set as defined by..
 - combine the the Test and Train tables into the combined_test_train data frame.
 - As per the instructions extract just the mean and std columns (leaving the activity and subject columns) from the combined_test_train into the mean_std_combined table.
 - strip funky characters out of the column names (IE, '(','(','-',..) these cause problems with the dplyr specification used for the summary tables created 
+- return cleaned dataframe
 
 ####get_tidy_mean_by_activity_wd
-creates a second, independent tidy data set with the average of each variable for each activity.
 
- <- function(mean_std_combined) {
-    mean_by_activity=mean_std_combined %>% group_by(activity) %>% summarise_each(funs(mean(.,na.rm=TRUE)), -subject)
-    }
+- takes the data frame returned from get_tidy_wearables and creates a second, independent tidy data set with the average of each variable for each activity.
 
+ 
 ####get_mean_by_subject_wd <- function(mean_std_combined) 
+- takes the data frame returned from get_tidy_wearables and creates a second, independent tidy data set with the average of each variable for each subject.
 
