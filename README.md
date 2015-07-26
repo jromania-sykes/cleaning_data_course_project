@@ -17,10 +17,10 @@ Files
 will create the the the 3 csv files described below.
 
 - 'tidy_data_wearable.csv' is the cleaned dataset.  
-	 1.The subject and activity columns are added to the Train and Test datasets.
-	 1.The datasets are merged into one large dataset.
-	 1.The actual row and column names are set to their descriptive names for the dataframe.
-	 1.The standard devation and mean columns are extracted
+	 1. The subject and activity columns are added to the Train and Test datasets.
+	 1. The datasets are merged into one large dataset.
+	 1. The actual row and column names are set to their descriptive names for the dataframe.
+	 1. The standard devation and mean columns are extracted
 	 
 	 
 - 'tidy_data_wearable_mean_by_subject.csv'
