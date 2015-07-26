@@ -1,4 +1,3 @@
-Data science Course project Notes
 
 ##load global tables
 library(dplyr)
