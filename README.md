@@ -23,14 +23,12 @@ will create the the the 3 csv files described below.
 	 1. The standard devation and mean columns are extracted
 	 
 	 
-- 'tidy_data_wearable_mean_by_subject.csv'
-	##Is the mean of all the columns in tidy_data_wearable aggregated by the 30 subjects.
+- 'tidy_data_wearable_mean_by_subject.csv' - The mean of all the columns in tidy_data_wearable aggregated by the 30 subjects.
 
-- 'tidy_data_wearable_mean_by_activity.csv''
-##Is the mean of all the columns in tidy_data_wearable aggregated by 6 activities.
+- 'tidy_data_wearable_mean_by_activity.csv' - Is the mean of all the columns in tidy_data_wearable aggregated by 6 activities.
 
 
-- 'CodeBook.md' - describes the algoritmn used to transform the MARTPHONE WEARABLE 1.0 Dataset into 
+- 'CodeBook.md' - describes the algorithmin used to transform the MARTPHONE WEARABLE 1.0 Dataset into 
 
 -  UCI HAR Dataset - This directory is a place holder for the original dataset.  The code 
 	references files in this directory to perform the cleaning of the data.  To reproduce the transformation in run_analysis.R first downloand and exgtract the files into a directory with this name.
