@@ -64,12 +64,10 @@ Transform the source tables into a tidy data set as defined by..
 - Strip funky characters out of the column names (IE, '(','(','-',..) these cause problems with the dplyr specification used for the summary tables created 
 - Return cleaned dataframe.
 
-####get_tidy_mean_by_activity_wd
+####get_tidy_mean
 
-- Takes the data frame returned from get_tidy_wearables and returns a second, independent tidy data set with the average of each variable for each activity.
+- Takes the data frame returned from get_tidy_wearables and returns a second, independent tidy data set with the average of each variable for each activity and subject
 
  
-####get_mean_by_subject_wd <- function(mean_std_combined) 
-- Takes the data frame returned from get_tidy_wearables and returns a second, independent tidy data set with the average of each variable for each subject.
 
 
