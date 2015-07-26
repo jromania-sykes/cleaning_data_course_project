@@ -28,16 +28,14 @@ subject_train - Mapping of the subject that was performing the activity for the 
 
 ###Algorithms
 
-The following steps are performed by **get_tidy_wearables** data function in the 
-run_analysis.R.
-
 ####get_tidy_wearables
-Transform the source tables into a tidy data set as defined by
 
-Merge the training and the test sets to create one data set.
-Extract only the measurements on the mean and standard deviation for each measurement. 
-Use descriptive activity names to name the activities in the data set
-Labels the data set with descriptive variable names. 
+Transform the source tables into a tidy data set as defined by..
+
+1. Merge the training and the test sets to create one data set.
+2. Extract only the measurements on the mean and standard deviation for each measurement. 
+3. Use descriptive activity names to name the activities in the data set
+4. Labels the data set with descriptive variable names. 
 
 ####method
 
