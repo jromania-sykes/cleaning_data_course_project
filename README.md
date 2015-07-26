@@ -5,7 +5,7 @@ This is a course project for the Getting and Cleaning Data Coursera course by by
 This project transforms the original performs prescribed transformations on the Human Activity Recognition Using Smartphones Dataset
 Version 1.0.  This dataset can be found here https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-This will be subsequently refereed to as the SMARTPHONE WEARABLE 1.0 Dataset.
+This will be subsequently referred to as the SMARTPHONE WEARABLE 1.0 Dataset.
 
 
 Files
