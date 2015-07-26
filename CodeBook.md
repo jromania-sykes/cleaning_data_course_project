@@ -4,8 +4,8 @@
 Files
 
 
-####Original Data set - https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-
+####Original Data set 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 Refer to the documentation above for description of the source files.
 
 ###Source Data
