@@ -1,6 +1,6 @@
 # cleaning_data_course_project
 
-This is a course project for the Getting and Cleaning Data Coursera course by John Hopkins University.
+This is a course project for the Getting and Cleaning Data Coursera course by by Jeff Leek, PhD, Roger D. Peng, PhD, Brian Caffo, PhD at John Hopkins University.
 
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0.  This will be subsequently refereed to as the SMARTPHONE WEARABLE 1.0 Dataset.
