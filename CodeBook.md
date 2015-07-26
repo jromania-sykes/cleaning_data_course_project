@@ -26,33 +26,30 @@ tGravityAcc-XYZ,tBodyAccJerk-XYZ)
 - Y_train - Activity mapping for the data in X_train. 
 - subject_train - Mapping of the subject that was performing the activity for the measurement in X_train.
 
-###Algorithms
+    ###Algorithms
 
-####get_tidy_wearables
+    ####get_tidy_wearables
 
-Transform the source tables into a tidy data set as defined by..
+    Transform the source tables into a tidy data set as defined by..
 
-1. Merge the training and the test sets to create one data set.
-2. Extract only the measurements on the mean and standard deviation for each measurement. 
-3. Use descriptive activity names to name the activities in the data set.
-4. Labels the data set with descriptive variable names. 
+    1. Merge the training and the test sets to create one data set.
+    2. Extract only the measurements on the mean and standard deviation for each measurement. 
+    3. Use descriptive activity names to name the activities in the data set.
+    4. Labels the data set with descriptive variable names. 
 
-####method
+    ####method
 
-- Load global tables : activity_labels, features.
-- Load 'train' and 'test' data sets.  X_test, Y_test, X_train, Y_train.
-- Set column names for X_train and X_test to for the 561 measurements included in each sample (i.e.  Column names).
-- Add the activity and subject columns to the X_train and X_test tables.  This adds the subject who was begin measured and the activity they were performing when the measurement was taken.
-- Combine the the Test and Train tables into the combined_test_train data frame.
-- As per the instructions extract just the mean and std columns (leaving the activity and subject columns) from the combined_test_train into the mean_std_combined table.
-- Strip funky characters out of the column names (IE, '(','(','-',..) these cause problems with the dplyr specification used for the summary tables created 
-- Return cleaned dataframe.
+    - Load global tables : activity_labels, features.
+    - Load 'train' and 'test' data sets.  X_test, Y_test, X_train, Y_train.
+    - Set column names for X_train and X_test to for the 561 measurements included in each sample (i.e.  Column names).
+    - Add the activity and subject columns to the X_train and X_test tables.  This adds the subject who was begin measured and the activity they were performing when the measurement was taken.
+    - Combine the the Test and Train tables into the combined_test_train data frame.
+    - As per the instructions extract just the mean and std columns (leaving the activity and subject columns) from the combined_test_train into the mean_std_combined table.
+    - Strip funky characters out of the column names (IE, '(','(','-',..) these cause problems with the dplyr specification used for the summary tables created 
+    - Return cleaned dataframe.
 
-####get_tidy_mean_by_activity_wd
+    ####get_tidy_mean 
 
-- Takes the data frame returned from get_tidy_wearables and returns a second, independent tidy data set with the average of each variable for each activity.
+    - Takes the data frame returned from get_tidy_wearables and returns a second, independent tidy data set with the average of each variable for each activity and subject
 
- 
-####get_mean_by_subject_wd <- function(mean_std_combined) 
-- Takes the data frame returned from get_tidy_wearables and returns a second, independent tidy data set with the average of each variable for each subject.
-
+    
